@@ -1,2 +1,3 @@
-# Optimal_growth_model
-Resolution of an optimal growth model using dynamic programming (including a greedy policy and a resolution with a Neural Network)
+# Dynamic Programming applied to the neo-classical growth model
+Resolution of an optimal growth model using recursive methods.
+We introduce a greedy policy and a also a resolution using a Neural Network.
