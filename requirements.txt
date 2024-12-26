@@ -4,3 +4,4 @@ matplotlib
 plotly
 seaborn
 ipykernel
+nbformat==5.10.4
