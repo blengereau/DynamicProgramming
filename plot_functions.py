@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 
-def plot_graph(xaxis_title, yaxis_title, title, variable1, variable2=None, variable3=None, variable4=None, showlegend=False):
+def plot_graph(xaxis_title, yaxis_title, title, variable1, variable2=None, variable3=None, variable4=None, variable5=None, showlegend=False):
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(
@@ -29,6 +29,13 @@ def plot_graph(xaxis_title, yaxis_title, title, variable1, variable2=None, varia
             y=variable4[1],
             mode = "lines",
             name = variable4[2]
+        ))
+    if variable5:
+        fig.add_trace(go.Scatter(
+            x=variable5[0],
+            y=variable5[1],
+            mode = "lines",
+            name = variable5[2]
         ))
     fig.update_layout(
         xaxis_title=xaxis_title,
