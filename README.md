@@ -26,4 +26,8 @@ I iteratively approximate the value function, reached by the following optimal p
 
 ![Policy function](images/policy_function.png)
 
-##
+## 3. Evaluation of arbitrary policies
+
+\[
+T_t
+\]
