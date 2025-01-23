@@ -19,6 +19,10 @@ The Bellman Equation of the agent is:
 
 ![Bellman Equation and Feasability set](images/bellman_equation.png)
 
-Which lead to the following value function:
+I iteratively approximate the value function, reached by the following optimal policy function:
 
 ![Value Function](images/value_function.png)
+
+![Policy function](images/policy_function.png)
+
+##
