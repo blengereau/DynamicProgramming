@@ -20,7 +20,7 @@ The Bellman Equation of the agent is:
 
 ![Bellman Equation and Feasability set](images/bellman_equation.png)
 
-I iteratively approximate the value function, reached by the following optimal policy function:
+We iteratively approximate the value function, reached by the following optimal policy function:
 
 ![Value Function](images/value_function.png)
 
@@ -28,6 +28,22 @@ I iteratively approximate the value function, reached by the following optimal p
 
 ## 3. Evaluation of arbitrary policies
 
-\[
-T_t
-\]
+
+## 4. calibration of a Neural Network to estimate the optimal path
+We aim to calibrate a neural network that approximates the path starting from an arbitrary initial stock of human capital and converging toward the steady state.
+To calibrate the neural network, we minimize the distance between the simulated and theoretical values of the:
+- Euler equation
+
+![Euler Equation](images/euler_equation.png)
+
+- Accumulation law of human capital
+
+![Accumulation law](images/accumulation_law.png)
+
+- Initial stock of human capital
+
+![Initial condition](images/initial_condition.png)
+
+We estimate the optimal path using a deep neural network calibration with back propagation of the loss of the residuals associated with the three equations. We observe a convergence to the steady state of the model.
+
+![Optimal path](images/optimal_path.png)
