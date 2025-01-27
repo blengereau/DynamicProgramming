@@ -1,8 +1,8 @@
 # Dynamic Programming & Reinforcement Learning applied to a Neo-Classical Growth Model
 
-This project solves an optimal growth model using Dynamic Programming techniques by approximating iteratively the value function. It also involves <b>evaluating arbitrary policies</b> on the agent control variable, and produce a Reinforcement Learning algorithm of <b>greedy procedure to update the policy function</b> of the agent.
+This project solves an optimal growth model using Dynamic Programming techniques by approximating iteratively the value function. It presents Reinforcement Learning algorithms to <b>evaluate arbitrary policies</b> on the agent control variable, and update the policy function ofthe agent using a <b>greedy procedure</b>.
 
-Additionally, this project <b>calibrates a Neural Network that approximates the optimal path </b> of capital accumulation from an arbitrary amount of capital.
+Additionally, this project <b>calibrates a Neural Network that approximates the optimal path</b> of the policy function from an arbitrary amount of capital.
 
 ## 1. Model
 
