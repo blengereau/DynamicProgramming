@@ -29,7 +29,7 @@ We iteratively approximate the value function, reached by the following optimal 
 ## 3. Evaluation of arbitrary policies
 
 
-## 4. calibration of a Neural Network to estimate the optimal path
+## 4. Neural Network calibration to estimate the optimal path
 We aim to calibrate a neural network that approximates the path starting from an arbitrary initial stock of human capital and converging toward the steady state.
 To calibrate the neural network, we minimize the distance between the simulated and theoretical values of the:
 - Euler equation
